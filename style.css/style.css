@@ -1,0 +1,269 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif  !important;
+}
+
+
+#page{
+    width:90%;
+    margin-left: 5%;
+    border:1px black solid;
+    height: 5000px;
+}
+
+ul{
+    text-decoration: none;
+    list-style-type:  none;
+    display: flex;
+    /* border:2px yellow solid; */
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* Sart Header*/
+
+header{
+    border:2px blue solid;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    height: 54px; 
+    flex-wrap: nowrap;
+}
+
+header  ul{
+  flex-wrap: nowrap;
+}
+
+.nav__item li{
+    /* border: 2px red solid; */
+    padding: 14px;
+}
+
+.nav__item a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+header b{
+    /* border: 2px green solid; */
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 100;
+    flex-shrink: 2;  
+} 
+
+
+.logo{
+    
+    width:104px;
+    padding: 14px 0px;
+    /* border: 2px green solid; */
+    cursor: pointer; 
+}
+
+.icon {
+    font-size: 15px;
+    /* border:2px solid red; */
+   
+}
+
+.icon-big{
+    font-size: 35px;
+    margin-top: -13px;
+  
+}
+
+
+.nav__item li:hover{
+    text-decoration: underline;
+}
+
+header div{
+    /* border:2px red solid; */
+    vertical-align: middle;
+}
+.nav__left{
+    display: flex;
+    padding:14px 5px;
+}
+.space{
+    width: 90px;
+    display: inline-block;
+}
+.space2 {
+   width:50px;
+}
+.nav__left span{
+    padding-left:8px;
+}
+nav{
+    width:66%;
+    display: flex;
+    height: 54px;
+    flex-wrap: nowrap;
+    /* border:3px green solid; */
+}
+.hide__list{
+    display: none;
+}
+
+
+
+
+/* end header */
+
+
+/* start New Section slide  */
+
+.Sli__section{
+    border:1px black solid;
+    width:100%;
+    height:520px;
+    background-image: url(../Images/RWKCAD.webp);
+    background-size: 100% 100%;
+    display: flex;
+   
+}
+
+.Sli__section div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+.Prime__button{
+    max-width:50px;
+    padding:5px 2px;
+    font-size: 12px;
+    background-color:#ffb900 ;
+    border: none;
+}
+.Sli__section div h1{
+        font-size:30px;
+        font-weight: 500;
+        opacity: .9;
+}
+.Sli__section div p{
+    max-width:430px;
+    flex-wrap: wrap;
+    font-size: 12px;
+    margin:15px 0px;
+    opacity: .9;
+}
+.black__button{
+    background-color: #000;
+    color:#fff;
+    width:150px;
+    border: none;
+    padding:5px 1px;
+    font-size: 12px;
+
+}
+.black__button a {
+    color:#fff;
+}
+.arrow__icon{
+    font-size: 5px;
+}
+.black__button:hover{
+    text-decoration: underline;
+    display:flex;
+    justify-content: space-around;
+    opacity: .8;
+    font-weight: bold;
+}
+
+.img_change{
+    display: none;
+}
+
+  
+
+/* End new section slide */
+
+/* *********** Start Icons Section******** */
+
+/*  */
+.icon__section{
+    display: flex;
+    flex-wrap: nowrap;
+    word-wrap:normal;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: 30px;
+}
+
+.all-icons{
+    flex-basis: 125px;
+    margin-right: 70px;  
+}
+
+
+/* End Sectio Icons  */
+
+
+/* start new section Images */
+.section__Images{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.all__Images{
+    border:1px solid green;
+    width:24%;
+}
+.all__Images button{
+    background-color: #ffd800;
+    border:none;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 3px 14px 5px;
+    margin: 12px 0 4px;
+    line-height: 20px;
+    height: 26px;
+
+}
+.section__Images div img{
+    width:100%;
+}
+.section__Images div h1{
+    font-size:22px;
+    font-weight: 500;
+    opacity: .98;
+    margin:5px 0px;
+}
+.section__Images div p{
+    margin:5px 0px 10px 0px;
+    max-width: 95%;
+} 
+.onHover a{
+    color:#0067b8;
+    font-weight: 500;
+}
+.onHover a:hover{
+    text-decoration: underline 3px;
+    margin-right: 10px;
+   
+}
+.onHover span{
+    color:#0067b8;
+    
+}
+.space-left{
+    margin-left: 30px;
+}
+
+/* End section images */

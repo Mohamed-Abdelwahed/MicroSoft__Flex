@@ -1,0 +1,225 @@
+
+/* 
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+
+@media screen  and (max-width:575px){
+   
+    .section__Images{
+        flex-direction: column;
+        margin: 30px 5%;
+       
+    }
+    .all__Images{
+         width: 100%;
+         margin-top:30px;
+    }
+    
+}
+@media  (min-width: 576px) and (max-width:767px) { 
+    #page{
+        width:100%;
+        margin: 0px;
+    }
+    nav{
+        display:none !important;
+    }
+    .logo{
+        order: 2;
+        margin:auto;
+    }
+    .icon-l{
+        order:3;
+    }
+    .small__hide{
+        display: none;
+    }
+    .nav__left{
+        margin-left: auto;
+       
+    }
+    .hide__list{
+        display: block;
+        margin: 12px;
+        width: 15%;
+        font-size: 30px;
+    }
+    .ALL__HIDE{
+        display:none;
+    }
+
+
+    /* start section slide  */
+    .Sli__section{
+        background-image: none !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        }
+        .Sli__section div{
+            border:1px red solid;
+            min-width: 100% !important;
+            display:flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            margin:0px;
+            padding:5px;
+            background-color: #e6e6e6;
+        }
+        .img_change{
+            display:inline-block ;
+            border:2px solid green;
+            margin: 0px;
+        }
+        .Sli__section p{
+            text-align: center;
+        }
+
+        /* start section icons  */
+        .icon__section{
+            flex-direction: column;
+            width: 70%;
+          }
+          .all-icons{
+            font-weight: bold;
+            width:300px;
+            display: flex;
+            flex-direction: row;
+            flex-basis: 55px;
+            margin-bottom:0px;
+          }
+          .all-icons img{
+            width:20px;
+            height: 20px;
+            margin:0px 10px;
+          }
+          .all-icons p{
+            margin: 0px;
+          }
+
+          /* start section images  */
+          .section__Images{
+            flex-direction: row;
+            justify-content: space-between;
+            margin:0px 5%;
+        }
+        .all__Images{
+             width: 49%;
+             margin-top:30px;
+        }
+
+          
+        
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width:768px)  and (max-width:991px) { 
+    .Sli__section{
+        background-image: url(../Images/slide700.webp);
+        display: flex;
+        }
+
+
+        /* start section slide  */
+
+        .Sli__section{
+            background-image: url(../Images/slide1000.webp);
+            display: flex;
+            }
+            #page{
+                width: 100% !important;
+                margin: 0 !important;
+            }
+
+            /* start section images  */
+            .section__Images{
+                flex-direction: row;
+                justify-content: space-between;
+                margin:0px 5%;
+            }
+            .all__Images{
+                 width: 49%;
+                 margin-top:30px;
+            }
+
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width:991px) { 
+    #page{
+        width:100%;
+        margin: 0px;
+    }
+    nav{
+        display:none !important;
+    }
+    .logo{
+        order: 2;
+        margin:auto;
+    }
+    .icon-l{
+        order:3;
+    }
+    .small__hide{
+        display: none;
+    }
+    .nav__left{
+        margin-left: auto;
+       
+    }
+    .hide__list{
+        display: block;
+        margin: 12px;
+        width: 15%;
+        font-size: 30px;
+    }
+    .ALL__HIDE{
+        display:none;
+    }
+
+    /* start section slide  */
+    .Sli__section{
+        background-image: url(../Images/slide1000.webp);
+        display: flex;
+        }
+        #page{
+            width: 100% !important;
+            margin: 0 !important;
+        }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width:1199px)  { 
+
+    /* start nav  */
+    #page{
+        width:100%;
+        margin: 0px;
+    }
+   .small__hide{
+       display: none;
+   }
+   .nav__left{
+       margin-left: auto;
+   }
+ 
+  
+
+
+   
+   /* start section slide  */
+
+   
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+/* start nav  */
+  
+  
+  
+}
