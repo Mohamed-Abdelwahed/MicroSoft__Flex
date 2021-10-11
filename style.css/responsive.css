@@ -1,24 +1,11 @@
 
-/* 
+/*
 // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up) */
 
 @media screen  and (max-width:575px){
-   
-    .section__Images{
-        flex-direction: column;
-        margin: 30px 5%;
-       
-    }
-    .all__Images{
-         width: 100%;
-         margin-top:30px;
-    }
-    
-}
-@media  (min-width: 576px) and (max-width:767px) { 
     #page{
         width:100%;
         margin: 0px;
@@ -37,8 +24,98 @@
         display: none;
     }
     .nav__left{
-        margin-left: auto;
-       
+        /* margin-left: auto; */
+
+    }
+    .hide__list{
+        display: block;
+        margin: 12px;
+        width: 15%;
+        font-size: 30px;
+    }
+    .ALL__HIDE{
+        display:none;
+    }
+    .icon-l{
+        margin-right: 50px;
+    }
+
+    /*========== start section slide ========== */
+
+    .section__Images{
+        flex-direction: column;
+        margin: 30px 5%;
+
+    }
+    .all__Images{
+         width: 100%;
+         margin-top:30px;
+    }
+
+    /* start section icons */
+    .icon__section{
+        flex-direction: column;
+        width: 70%;
+      }
+      .all-icons{
+        font-weight: bold;
+        width:300px;
+        display: flex;
+        flex-direction: row;
+        flex-basis: 55px;
+        margin-bottom:0px;
+      }
+      .all-icons img{
+        width:20px;
+        height: 20px;
+        margin:0px 10px;
+      }
+      .all-icons p{
+        margin: 0px;
+      }
+
+/* start section paragraph */
+/* start new paragaph section */
+.para__center {
+    padding:0px 20px;
+}
+.para__center h1{
+font-size: 30px;
+}
+.para__center p{
+font-size: 12px;
+}
+
+.slide__3{
+    background-image: url(../Images/slide33.webp);
+}
+
+}
+@media  (min-width: 576px) and (max-width:767px) {
+    #page{
+        width:100%;
+        margin: 0px;
+    }
+    nav{
+        display:none !important;
+    }
+    .logo{
+        order: 2;
+        margin:auto;
+    }
+    .icon-l{
+        order:3;
+    }
+    .small__hide{
+        display: none;
+    }
+    .nav__left{
+        /* margin-left: auto; */
+        /* margin-right: 5px; */
+
+    }
+    .icon-l{
+        margin-right: 50px;
     }
     .hide__list{
         display: block;
@@ -59,7 +136,7 @@
         justify-content: center;
         }
         .Sli__section div{
-            border:1px red solid;
+            /* border:1px red solid; */
             min-width: 100% !important;
             display:flex;
             justify-content: center;
@@ -71,7 +148,7 @@
         }
         .img_change{
             display:inline-block ;
-            border:2px solid green;
+            /* border:2px solid green; */
             margin: 0px;
         }
         .Sli__section p{
@@ -111,45 +188,34 @@
              margin-top:30px;
         }
 
-          
-        
-}
+        /* start slide section 2 */
+        .slide__2 div{
+            color:#fff;
+            background-color:#333;
+        }
+        /* start new paragaph section */
+        .para__center {
+                padding:0px 20px;
+        }
+        .para__center h1{
+            font-size: 30px;
+        }
+        .para__center p{
+            font-size: 12px;
+        }
 
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width:768px)  and (max-width:991px) { 
-    .Sli__section{
-        background-image: url(../Images/slide700.webp);
-        display: flex;
+        /* start new section slide 3 */
+        .slide__3{
+            background-image: url(../Images/slide33.webp);
         }
 
 
-        /* start section slide  */
-
-        .Sli__section{
-            background-image: url(../Images/slide1000.webp);
-            display: flex;
-            }
-            #page{
-                width: 100% !important;
-                margin: 0 !important;
-            }
-
-            /* start section images  */
-            .section__Images{
-                flex-direction: row;
-                justify-content: space-between;
-                margin:0px 5%;
-            }
-            .all__Images{
-                 width: 49%;
-                 margin-top:30px;
-            }
 
 
 }
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width:991px) { 
+@media (min-width: 768px) and (max-width:991px) {
     #page{
         width:100%;
         margin: 0px;
@@ -167,10 +233,6 @@
     .small__hide{
         display: none;
     }
-    .nav__left{
-        margin-left: auto;
-       
-    }
     .hide__list{
         display: block;
         margin: 12px;
@@ -180,20 +242,32 @@
     .ALL__HIDE{
         display:none;
     }
+    .icon-l{
+        margin-right: 50px;
+    }
 
     /* start section slide  */
     .Sli__section{
         background-image: url(../Images/slide1000.webp);
         display: flex;
         }
-        #page{
-            width: 100% !important;
-            margin: 0 !important;
-        }
+
+        /* start section slide 2 */
+        .slide__2{
+            background-image: url(../Images/slide_22.webp);
+            display: flex;
+            }
+            #page{
+                width: 100% !important;
+                margin: 0 !important;
+            }
+            .slide__3{
+                background-image: url(../Images/slide33.webp);
+            }
 }
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width:1199px)  { 
+@media (min-width: 992px) and (max-width:1199px)  {
 
     /* start nav  */
     #page{
@@ -204,22 +278,17 @@
        display: none;
    }
    .nav__left{
-       margin-left: auto;
+       /* margin-left: auto; */
    }
- 
-  
+   /* start section slide 2 */
 
 
-   
-   /* start section slide  */
-
-   
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {
 /* start nav  */
-  
-  
-  
+
+
+
 }
